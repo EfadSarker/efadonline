@@ -199,12 +199,6 @@
     window.scrollTo({top:0, behavior:'smooth'});
   });
 
-  /* ---------- Download CV button ---------- */
-  document.getElementById('downloadCvBtn').addEventListener('click', function(e){
-    e.preventDefault();
-    alert('Add your CV PDF file to the project folder and update the Download CV button link to point to it.');
-  });
-
   /* ---------- Contact form (mailto handoff, no backend) ---------- */
   document.getElementById('contactForm').addEventListener('submit', function(e){
     e.preventDefault();
