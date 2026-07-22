@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mohammad Efad Sarker — Marketing &amp; Multimedia Professional</title>
+<meta name="description" content="Portfolio of Mohammad Efad Sarker — Digital Marketing Intern at Nagad, Multimedia Journalist, Marketing major at IUB, based in Dhaka, Bangladesh.">
+<meta name="keywords" content="Mohammad Efad Sarker, Digital Marketing, Multimedia Journalist, Marketing, Dhaka, Bangladesh, IUB">
+<meta property="og:title" content="Mohammad Efad Sarker — Portfolio">
+<meta property="og:description" content="Marketing major, Digital Marketing Intern at Nagad, and Multimedia Journalist based in Dhaka, Bangladesh.">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- PRELOADER -->
+<div id="preloader" aria-hidden="true">
+  <div class="pre-mark"><span class="pre-dot"></span> INITIALIZING PORTFOLIO</div>
+  <div class="pre-bar"></div>
+</div>
+
+<canvas id="bg-canvas" aria-hidden="true"></canvas>
+<div class="mouse-glow" id="mouseGlow" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
+<div id="cursor-dot" aria-hidden="true"></div>
+<div id="cursor-ring" aria-hidden="true"></div>
+<div id="scroll-progress"></div>
+
+<!-- NAV -->
+<header id="siteHeader">
+  <div class="container nav-row">
+    <a href="#hero" class="brand"><span class="signal-dot"></span>M<span class="hi">Efad</span>Sarker</a>
+    <nav id="siteNav">
+      <ul>
+        <li><a href="#hero" class="nav-link" data-sec="hero">Home</a></li>
+        <li><a href="#about" class="nav-link" data-sec="about">About</a></li>
+        <li><a href="#experience" class="nav-link" data-sec="experience">Experience</a></li>
+        <li><a href="#education" class="nav-link" data-sec="education">Education</a></li>
+        <li><a href="#skills" class="nav-link" data-sec="skills">Skills</a></li>
+        <li><a href="#journey" class="nav-link" data-sec="journey">Journey</a></li>
+        <li><a href="#contact" class="nav-link" data-sec="contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="on-air"><i></i> AVAILABLE FOR OPPORTUNITIES · DHAKA, BD</div>
+      <h1 class="hero-name">Mohammad Efad <span class="grad">Sarker</span></h1>
+      <div class="hero-role"><span id="typedRole">Digital Marketing Intern</span><span class="cursor-blink"></span></div>
+      <p class="hero-summary">Marketing major at IUB with a minor in International Business, bringing foundational experience as a multimedia journalist and hands-on digital marketing work at Nagad. Skilled in content strategy, brand management, and audience-first storytelling — backed by real newsroom discipline.</p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> Contact Me</a>
+        <a href="#" class="btn btn-ghost" id="downloadCvBtn"><i class="fa-solid fa-download"></i> Download CV</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://www.facebook.com/EfadOfficial/" target="_blank" rel="noopener" class="social-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/e_f_a_d" target="_blank" rel="noopener" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/efadsarker/" target="_blank" rel="noopener" class="social-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:mdefads@gmail.com" class="social-btn" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="hero-portrait-wrap">
+      <div class="portrait-ring">
+        <div class="portrait-inner">
+          <img src="profile.png" alt="Mohammad Efad Sarker professional photo" id="portraitImg">
+        </div>
+        <div class="portrait-tag glass">BBA · Marketing, IUB</div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-cue"><span>SCROLL</span><span class="line"></span></div>
+</section>
+
+<div class="ticker-wrap" aria-hidden="true">
+  <div class="ticker-track">
+    <span><i class="fa-solid fa-circle"></i> DIGITAL MARKETING</span>
+    <span><i class="fa-solid fa-circle"></i> MULTIMEDIA JOURNALISM</span>
+    <span><i class="fa-solid fa-circle"></i> BRAND MANAGEMENT</span>
+    <span><i class="fa-solid fa-circle"></i> CONTENT STRATEGY</span>
+    <span><i class="fa-solid fa-circle"></i> SOCIAL MEDIA MANAGEMENT</span>
+    <span><i class="fa-solid fa-circle"></i> DHAKA, BANGLADESH</span>
+    <span><i class="fa-solid fa-circle"></i> DIGITAL MARKETING</span>
+    <span><i class="fa-solid fa-circle"></i> MULTIMEDIA JOURNALISM</span>
+    <span><i class="fa-solid fa-circle"></i> BRAND MANAGEMENT</span>
+    <span><i class="fa-solid fa-circle"></i> CONTENT STRATEGY</span>
+    <span><i class="fa-solid fa-circle"></i> SOCIAL MEDIA MANAGEMENT</span>
+    <span><i class="fa-solid fa-circle"></i> DHAKA, BANGLADESH</span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">About</div>
+      <h2>Marketer by training, storyteller by instinct.</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-copy reveal">
+        <p>I'm a <strong>Marketing major with a minor in International Business</strong> at Independent University, Bangladesh (IUB), currently gaining hands-on industry experience as a <strong>Digital Marketing Intern at Nagad</strong>. Before that, I spent years behind the scenes as a <strong>Multimedia Journalist at SportsZone24</strong>, producing and editing video, photo, and voiceover content for digital and broadcast platforms.</p>
+        <p>That newsroom background shapes how I approach marketing: I care about clear, accurate, audience-first communication as much as I care about strategy and brand positioning. I'm equally comfortable researching a market, scripting a story, or managing a social calendar.</p>
+        <p>Outside of coursework and internships, I stay active in university life as a member of the <strong>IUB E-Business Club</strong>, and earned recognition as <strong>Best Delegate</strong> at the Dhaka University National Model United Nations — proof that I enjoy environments that reward preparation, negotiation, and clear thinking under pressure.</p>
+        <ul class="highlight-list">
+          <li><i class="fa-solid fa-bullseye"></i> Goal: grow into a strategic digital marketing role that blends brand, content, and data.</li>
+          <li><i class="fa-solid fa-bolt"></i> Strength: turning research and raw information into clear, engaging content.</li>
+          <li><i class="fa-solid fa-heart"></i> Passion: storytelling that sits at the intersection of media and marketing.</li>
+        </ul>
+      </div>
+      <div class="stats-grid reveal-stagger">
+        <div class="glass stat-card">
+          <div class="stat-num" data-count="7">0<span class="grad">+</span></div>
+          <div class="stat-label">YEARS OF MULTIMEDIA &amp; MARKETING EXPERIENCE</div>
+        </div>
+        <div class="glass stat-card">
+          <div class="stat-num" data-count="2">0</div>
+          <div class="stat-label">ORGANIZATIONS WORKED WITH</div>
+        </div>
+        <div class="glass stat-card">
+          <div class="stat-num" data-count="9">0<span class="grad">+</span></div>
+          <div class="stat-label">CORE PROFESSIONAL SKILLS</div>
+        </div>
+        <div class="glass stat-card">
+          <div class="stat-num" data-count="4">0</div>
+          <div class="stat-label">CLUBS, AWARDS &amp; ACTIVITIES</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Experience</div>
+      <h2>Where I've put the work in.</h2>
+      <p>A mix of hands-on digital marketing and years of multimedia news production.</p>
+    </div>
+
+    <div class="exp-card glass reveal">
+      <div class="exp-logo">N</div>
+      <div>
+        <div class="exp-top">
+          <div>
+            <div class="exp-role">Digital Marketing Intern</div>
+            <div class="exp-company">Nagad · Internship</div>
+          </div>
+          <div class="exp-meta">Jun 2026 — Present · 2 mos<br>Dhaka, Bangladesh · On-site</div>
+        </div>
+        <ul class="exp-desc">
+          <li>Supporting digital marketing operations at one of Bangladesh's leading mobile financial service providers.</li>
+          <li>Working across content management and web content creation for digital platforms.</li>
+        </ul>
+        <div class="tag-row">
+          <span class="tag">Content Management</span>
+          <span class="tag">Web Content Creation</span>
+          <span class="tag">+4 more skills</span>
+        </div>
+        <a href="https://nagad.com.bd/" target="_blank" rel="noopener" class="exp-link">Visit Nagad <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </div>
+
+    <div class="exp-card glass reveal">
+      <div class="exp-logo">S24</div>
+      <div>
+        <div class="exp-top">
+          <div>
+            <div class="exp-role">Multimedia Journalist</div>
+            <div class="exp-company">SportsZone24 · Part-time · Remote</div>
+          </div>
+          <div class="exp-meta">Dec 2016 — Jun 2024 · 7 yrs 7 mos<br>Dhaka, Bangladesh</div>
+        </div>
+        <ul class="exp-desc">
+          <li>Produced, reported, and edited multimedia news content — including videos, photo cards, and voiceovers — for digital and broadcast platforms.</li>
+          <li>Managed end-to-end news production, from story research and scripting to publishing, ensuring engaging and accurate content for audiences.</li>
+        </ul>
+        <div class="tag-row">
+          <span class="tag">Content Management</span>
+        </div>
+        <a href="https://www.facebook.com/sportszone24official" target="_blank" rel="noopener" class="exp-link">Visit SportsZone24 <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Education</div>
+      <h2>Academic foundation.</h2>
+    </div>
+    <div class="edu-grid reveal-stagger">
+      <div class="edu-card glass">
+        <div class="edu-logo">IUB</div>
+        <div class="edu-degree">BBA — Marketing</div>
+        <div class="edu-inst">Independent University, Bangladesh</div>
+        <div class="edu-meta">
+          <span>2023 — Present</span>
+          <span>Minor: <b>International Business</b></span>
+          <span>CGPA: <b>3.10 / 4.00</b></span>
+        </div>
+        <a href="https://www.iub.ac.bd/" target="_blank" rel="noopener" class="exp-link">iub.ac.bd <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+      <div class="edu-card glass">
+        <div class="edu-logo">NDC</div>
+        <div class="edu-degree">Higher Secondary Certificate</div>
+        <div class="edu-inst">Notre Dame College, Dhaka</div>
+        <div class="edu-meta">
+          <span>2021</span>
+          <span>Group: <b>Science</b></span>
+          <span>GPA: <b>5.00 / 5.00</b></span>
+        </div>
+        <a href="https://ndc.edu.bd/" target="_blank" rel="noopener" class="exp-link">ndc.edu.bd <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+      <div class="edu-card glass">
+        <div class="edu-logo">TGBHS</div>
+        <div class="edu-degree">Secondary School Certificate</div>
+        <div class="edu-inst">Thakurgaon Govt. Boys' High School</div>
+        <div class="edu-meta">
+          <span>2019</span>
+          <span>Group: <b>Science</b></span>
+          <span>GPA: <b>5.00 / 5.00</b></span>
+        </div>
+        <a href="https://tgbhs.edu.bd/" target="_blank" rel="noopener" class="exp-link">tgbhs.edu.bd <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Skills</div>
+      <h2>What I bring to the table.</h2>
+    </div>
+    <div class="skills-cats reveal-stagger">
+      <div class="skill-cat glass">
+        <h3><i class="fa-solid fa-chart-line"></i> Marketing &amp; Strategy</h3>
+        <div class="skill-row">
+          <div class="skill-row-top"><span>Brand Management</span><span>92%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="92"></div></div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-row-top"><span>Digital Marketing Strategy</span><span>88%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="88"></div></div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-row-top"><span>Market Research &amp; Analytics</span><span>85%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-row-top"><span>Business Development</span><span>80%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div>
+        </div>
+      </div>
+      <div class="skill-cat glass">
+        <h3><i class="fa-solid fa-layer-group"></i> Content &amp; Digital</h3>
+        <div class="skill-row">
+          <div class="skill-row-top"><span>Content Management</span><span>93%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="93"></div></div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-row-top"><span>Social Media Management</span><span>90%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="90"></div></div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-row-top"><span>Web Content Creation</span><span>82%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="82"></div></div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-row-top"><span>Canva &amp; Photoshop</span><span>78%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="78"></div></div>
+        </div>
+      </div>
+      <div class="skill-cat glass">
+        <h3><i class="fa-solid fa-users"></i> Leadership &amp; Tools</h3>
+        <div class="skill-row">
+          <div class="skill-row-top"><span>Project &amp; Team Leadership</span><span>87%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="87"></div></div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-row-top"><span>MS Office Suite</span><span>90%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="90"></div></div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-row-top"><span>Artificial Intelligence Tools</span><span>84%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="84"></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="waveform reveal" aria-hidden="true">
+      <span style="animation-delay:0s"></span><span style="animation-delay:.1s"></span><span style="animation-delay:.2s"></span>
+      <span style="animation-delay:.3s"></span><span style="animation-delay:.4s"></span><span style="animation-delay:.3s"></span>
+      <span style="animation-delay:.2s"></span><span style="animation-delay:.1s"></span><span style="animation-delay:0s"></span>
+    </div>
+    <div class="section-head reveal" style="margin-top:60px;margin-bottom:26px;">
+      <div class="eyebrow">Also skilled in</div>
+    </div>
+    <div class="badge-cloud reveal">
+      <span class="badge">Storytelling</span>
+      <span class="badge">Video Editing</span>
+      <span class="badge">Voiceover Production</span>
+      <span class="badge">Copywriting</span>
+      <span class="badge">Public Speaking</span>
+      <span class="badge">Negotiation</span>
+      <span class="badge">Adaptability</span>
+      <span class="badge">Continuous Learning</span>
+    </div>
+  </div>
+</section>
+
+<!-- JOURNEY -->
+<section id="journey">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Journey</div>
+      <h2>The path so far.</h2>
+    </div>
+    <div class="timeline">
+      <div class="t-item reveal">
+        <div class="t-dot"></div>
+        <div class="t-year">2016 — 2018</div>
+        <div class="t-title">Member, TGBHS Science Club</div>
+        <div class="t-desc">Began building a foundation in science and teamwork at Thakurgaon Govt. Boys' High School.</div>
+      </div>
+      <div class="t-item reveal">
+        <div class="t-dot"></div>
+        <div class="t-year">Dec 2016 — Jun 2024</div>
+        <div class="t-title">Multimedia Journalist, SportsZone24</div>
+        <div class="t-desc">Produced and edited news content across video, photo, and voiceover formats for digital and broadcast platforms.</div>
+      </div>
+      <div class="t-item reveal">
+        <div class="t-dot"></div>
+        <div class="t-year">2019</div>
+        <div class="t-title">Secondary School Certificate — GPA 5.00/5.00</div>
+        <div class="t-desc">Graduated from Thakurgaon Govt. Boys' High School with a perfect GPA in Science.</div>
+      </div>
+      <div class="t-item reveal">
+        <div class="t-dot"></div>
+        <div class="t-year">2019</div>
+        <div class="t-title">Best Delegate — Dhaka University National MUN</div>
+        <div class="t-desc">Recognised as Best Delegate (SCBA) at the Dhaka University National Model United Nations.</div>
+      </div>
+      <div class="t-item reveal">
+        <div class="t-dot"></div>
+        <div class="t-year">2019 — 2020</div>
+        <div class="t-title">Member, Notre Dame Science Club</div>
+        <div class="t-desc">Stayed engaged in science-focused extracurriculars during higher secondary studies.</div>
+      </div>
+      <div class="t-item reveal">
+        <div class="t-dot"></div>
+        <div class="t-year">2021</div>
+        <div class="t-title">Higher Secondary Certificate — GPA 5.00/5.00</div>
+        <div class="t-desc">Completed HSC in Science at Notre Dame College, Dhaka, with a perfect GPA.</div>
+      </div>
+      <div class="t-item reveal">
+        <div class="t-dot"></div>
+        <div class="t-year">2023 — Present</div>
+        <div class="t-title">BBA in Marketing, IUB</div>
+        <div class="t-desc">Started a Bachelor of Business Administration, majoring in Marketing with a minor in International Business.</div>
+      </div>
+      <div class="t-item reveal">
+        <div class="t-dot"></div>
+        <div class="t-year">2023 — 2026</div>
+        <div class="t-title">Member, IUB E-Business Club</div>
+        <div class="t-desc">Participated in e-business projects and hosted club events, developing leadership and digital business skills.</div>
+      </div>
+      <div class="t-item reveal">
+        <div class="t-dot"></div>
+        <div class="t-year">Jun 2026 — Present</div>
+        <div class="t-title">Digital Marketing Intern, Nagad</div>
+        <div class="t-desc">Joined Nagad to apply marketing coursework to real digital campaigns and content operations.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="float-icons" aria-hidden="true">
+    <i class="fa-solid fa-envelope" style="top:12%;left:8%;font-size:26px;animation-duration:8s;"></i>
+    <i class="fa-brands fa-linkedin-in" style="top:65%;left:14%;font-size:20px;animation-duration:10s;"></i>
+    <i class="fa-brands fa-whatsapp" style="top:20%;left:88%;font-size:24px;animation-duration:9s;"></i>
+    <i class="fa-brands fa-instagram" style="top:75%;left:82%;font-size:22px;animation-duration:7s;"></i>
+  </div>
+  <div class="container">
+    <div class="contact-head reveal">
+      <div class="eyebrow" style="justify-content:center;">Contact</div>
+      <h2>Let's build something amazing together.</h2>
+      <p>Open to digital marketing roles, internships, and collaborations. Reach out through whichever channel works best for you.</p>
+    </div>
+
+    <div class="contact-grid reveal-stagger">
+      <a href="mailto:mdefads@gmail.com" class="contact-card glass">
+        <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+        <div><b>Email</b><span>mdefads@gmail.com</span></div>
+      </a>
+      <a href="https://wa.me/8801751027353" target="_blank" rel="noopener" class="contact-card glass">
+        <div class="contact-icon"><i class="fa-brands fa-whatsapp"></i></div>
+        <div><b>WhatsApp</b><span>+880 1751 027353</span></div>
+      </a>
+      <a href="https://www.linkedin.com/in/efadsarker/" target="_blank" rel="noopener" class="contact-card glass">
+        <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+        <div><b>LinkedIn</b><span>efadsarker</span></div>
+      </a>
+      <a href="https://www.facebook.com/EfadOfficial/" target="_blank" rel="noopener" class="contact-card glass">
+        <div class="contact-icon"><i class="fa-brands fa-facebook-f"></i></div>
+        <div><b>Facebook</b><span>EfadOfficial</span></div>
+      </a>
+    </div>
+
+    <form class="contact-form glass reveal" id="contactForm">
+      <div class="form-row">
+        <div class="field">
+          <label for="cf-name">Name</label>
+          <input type="text" id="cf-name" name="name" required placeholder="Your name">
+        </div>
+        <div class="field">
+          <label for="cf-email">Email</label>
+          <input type="email" id="cf-email" name="email" required placeholder="you@example.com">
+        </div>
+      </div>
+      <div class="field" style="margin-bottom:18px;">
+        <label for="cf-subject">Subject</label>
+        <input type="text" id="cf-subject" name="subject" required placeholder="What's this about?">
+      </div>
+      <div class="field" style="margin-bottom:18px;">
+        <label for="cf-message">Message</label>
+        <textarea id="cf-message" name="message" required placeholder="Tell me a bit more..."></textarea>
+      </div>
+      <button type="submit" class="submit-glow"><i class="fa-solid fa-bolt"></i> Send Message</button>
+      <div class="form-note" id="formNote"></div>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-row">
+      <div>
+        <div class="footer-brand">Mohammad Efad Sarker</div>
+        <div class="footer-thanks">Thanks for stopping by — let's create something great.</div>
+      </div>
+      <div class="footer-socials">
+        <a href="https://www.facebook.com/EfadOfficial/" target="_blank" rel="noopener" class="social-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/e_f_a_d" target="_blank" rel="noopener" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/efadsarker/" target="_blank" rel="noopener" class="social-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:mdefads@gmail.com" class="social-btn" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <button id="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+      </div>
+    </div>
+    <div class="footer-copy">© <span id="year"></span> Mohammad Efad Sarker. All rights reserved.</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
